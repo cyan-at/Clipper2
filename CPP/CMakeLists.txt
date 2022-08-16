@@ -58,7 +58,7 @@ set_target_properties(InflateDemo1 PROPERTIES LINKER_LANGUAGE CXX)
 set_target_properties(InflateDemo1 PROPERTIES LINK_FLAGS "-Wl,-rpath,${CMAKE_SOURCE_DIR}/lib")
 
 
-option(PACKAGE_TESTS "Build the tests" ON)
+option(PACKAGE_TESTS "Build the tests" OFF)
 if(PACKAGE_TESTS)
   # See: https://cliutils.gitlab.io/modern-cmake/chapters/testing/googletest.html
 

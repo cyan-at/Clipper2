@@ -84,6 +84,6 @@ void System(const std::string &filename)
 #ifdef _WIN32
   system(filename.c_str());
 #else
-  system(("firefox " + filename).c_str());
+  system(("google-chrome " + filename).c_str());
 #endif
 }
